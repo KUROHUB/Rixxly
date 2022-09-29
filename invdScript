@@ -1,6 +1,6 @@
 -- compatible with key sys version 1340a4e
 local Request = http_request or syn and syn.request or request or nil
-local CurrentDiscordInvite = isfile('Invite.DARKHUB') and readfile('Invite.DARKHUB') or nil
+local CurrentDiscordInvite = isfile('Invite.xLENOHUB') and readfile('Invite.xLENOHUB') or nil
 if Request then
     local Invite
     local r = Request(
